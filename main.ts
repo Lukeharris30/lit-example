@@ -1,3 +1,6 @@
-import {MyElement} from './components/my-element'
+import {SliderCard} from './components/slider-card'
+import { SliderWrapper } from "./components/slider-wrapper"
 
-export {MyElement}
+import './style.css'
+
+export {SliderWrapper, SliderCard}

@@ -4,12 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Slider Component</title>
+    <style>
+        :root{
+            --item-background: #fff;
+            --item-background-hover: aliceblue;
+            --item-width: 350px;
+            --item-color: black;
+        }
+        p {
+            font-size: 14px;
+            font-weight: 200;
+        }
+    </style>
 </head>
 <body>
-    <my-element></my-element>
-    <my-element name="Luke"></my-element>
-    <my-element name="Sucka"></my-element>
+    <!-- <slider-wrapper name="luke"> -->
+        <!-- <div slot="my-text"> -->
+        <slider-card  name="Dank">
+           <p>With some text</p>
+        </slider-card>
+        <slider-card  name="Ness"></slider-card>
+        <!-- <div class="next">next</div>
+        <div class="prev">prev</div> -->
+    <!-- </div> -->
+    <!-- </slider-wrapper> -->
+    
     <script type="module" src="./main.ts"></script>
 </body>
 </html>
